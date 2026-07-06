@@ -8,24 +8,19 @@ Task:
 - Handle missing file paths and empty files gracefully with informative error messages.
 """
 
-# issue fix
-# use different names for variable for the following reasons
-    # 1. for clarity and avoiding confusion 
-    # 2. and name base on what steps you are on to avoid the naming colloision
-# Use split() not split(" "), to remove all the whitespace in b/w
+# Issues fixed:
+# → Use distinct variable names per step to avoid 
+#   naming collisions and improve clarity
+# → Use split() not split(" ") — split() handles 
+#   any amount of whitespace as one separator
 
-# self-reflections
-# What I faced:
-# → Not knowing what to clean until I saw the data
-# → Not knowing whether to mutate or create new variables
-
-# What I learned:
-# → Handle the common cases first. Add edge cases 
-#   when production tells you what breaks.
-# → If the data is needed later, don't modify it directly. 
-#   If it's not reused, save yourself the extra variable.
-
-# Both are production decisions, not Python decisions.
+# Decisions & reflections:
+# → Handle the common cases first. Don't predict every 
+#   edge case before seeing real data — let real usage 
+#   show you what to add next.
+# → Keep the original data untouched if it's needed 
+#   downstream. Mutate only when the variable 
+#   has no further use.
 
 """
 Solution
