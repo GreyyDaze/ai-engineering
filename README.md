@@ -20,7 +20,7 @@ Projects are built in separate repos and linked below.
 
 | Phase | Project            | Repo   | Status      |
 | ----- | ------------------ | ------ | ----------- |
-| 1     | Document Q&A API   | [link] | 🔨 Building |
+| 1     | Document Q&A API   | [repo](https://github.com/GreyyDaze/ai-document-qa-api) | 🔨 Building |
 | 2     | Evaluated RAG App  | Coming | —           |
 | 3     | Multi-Agent System | Coming | —           |
 
