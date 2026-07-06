@@ -1,0 +1,8 @@
+Python is a programming language. 
+It is widely used in AI engineering. 
+Many libraries are built in Python. 
+LangChain is a popular framework. FastAPI is used for building APIs. 
+Dr. Smith uses Python daily. Qdrant is a vector database. 
+Docker is used for deployment. GitHub Actions handles CI/CD. 
+Langfuse is used for observability. Python dominates AI because of its ecosystem. The ecosystem grows every year. 
+New tools are built in Python. Engineers choose Python for AI work. Python calls C code underneath for performance.
